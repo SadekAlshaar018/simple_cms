@@ -1,0 +1,22 @@
+<%= link_to('home', '/demo/index') %> |
+<%= link_to('othe hello', '/demo/other_hello')%>
+
+<p>Hello world from hello template</p><hr>
+<%=  target = 1 + 1 %><br /><hr>
+
+<% target = "world" %>
+<%= "hello #{target}" %>
+
+<!-- target is equl var -->
+<br /><hr>
+
+<%=
+  3.times do |n|
+  puts n
+  end
+%><hr>
+<br />
+<% @array.each do |n| %>
+<%= n %>
+<% end %>
+<hr>
